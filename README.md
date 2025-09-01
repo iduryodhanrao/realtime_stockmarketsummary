@@ -33,7 +33,7 @@ This project provides a real-time stock market summary pipeline using Python, Ka
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/realtime_stockmarketsummary.git
+git clone https://github.com/iduryodhanrao/realtime_stockmarketsummary.git
 cd realtime_stockmarketsummary
 ```
 

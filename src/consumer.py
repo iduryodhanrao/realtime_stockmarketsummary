@@ -83,6 +83,7 @@ def main():
 
     try:
         for message in consumer:
+            print(f"recieved: {message.value.decode()}")
             tick = message.value
             ticker = tick.get("s")
             
