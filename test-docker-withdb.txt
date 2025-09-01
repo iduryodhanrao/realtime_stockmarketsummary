@@ -1,4 +1,5 @@
 # docker-compose.yml
+# builds container for kafka & postgres
 version: '3.8'
 services:
   zookeeper:

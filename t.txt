@@ -1,0 +1,557 @@
+kafka-test  | [Configuring] 'advertised.listeners' in '/opt/kafka/config/server.properties'
+kafka-test  | [Configuring] 'port' in '/opt/kafka/config/server.properties'
+kafka-test  | Excluding KAFKA_HOME from broker config
+kafka-test  | [Configuring] 'log.dirs' in '/opt/kafka/config/server.properties'
+kafka-test  | [Configuring] 'listeners' in '/opt/kafka/config/server.properties'
+kafka-test  | Excluding KAFKA_VERSION from broker config
+kafka-test  | [Configuring] 'zookeeper.connect' in '/opt/kafka/config/server.properties'
+kafka-test  | [Configuring] 'broker.id' in '/opt/kafka/config/server.properties'
+kafka-test  | [2025-09-01 11:37:19,225] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+kafka-test  | [2025-09-01 11:37:19,678] INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation (org.apache.zookeeper.common.X509Util)
+kafka-test  | [2025-09-01 11:37:19,797] INFO Registered signal handlers for TERM, INT, HUP (org.apache.kafka.common.utils.LoggingSignalHandler)
+kafka-test  | [2025-09-01 11:37:19,804] INFO starting (kafka.server.KafkaServer)
+kafka-test  | [2025-09-01 11:37:19,805] INFO Connecting to zookeeper on zookeeper-test:2181 (kafka.server.KafkaServer)
+kafka-test  | [2025-09-01 11:37:19,839] INFO [ZooKeeperClient Kafka server] Initializing a new session to zookeeper-test:2181. (kafka.zookeeper.ZooKeeperClient)
+kafka-test  | [2025-09-01 11:37:19,854] INFO Client environment:zookeeper.version=3.5.9-83df9301aa5c2a5d284a9940177808c01bc35cef, built on 01/06/2021 20:03 GMT (org.apache.zookeeper.ZooKeeper)
+kafka-test  | [2025-09-01 11:37:19,854] INFO Client environment:host.name=9c157a163f49 (org.apache.zookeeper.ZooKeeper)
+kafka-test  | [2025-09-01 11:37:19,854] INFO Client environment:java.version=11.0.15 (org.apache.zookeeper.ZooKeeper)
+kafka-test  | [2025-09-01 11:37:19,854] INFO Client environment:java.vendor=Oracle Corporation (org.apache.zookeeper.ZooKeeper)
+kafka-test  | [2025-09-01 11:37:19,855] INFO Client environment:java.home=/usr/local/openjdk-11 (org.apache.zookeeper.ZooKeeper)
+kafka-test  | [2025-09-01 11:37:19,855] INFO Client environment:java.class.path=/opt/kafka/bin/../libs/activation-1.1.1.jar:/opt/kafka/bin/../libs/aopalliance-repackaged-2.6.1.jar:/opt/kafka/bin/../libs/argparse4j-0.7.0.jar:/opt/kafka/bin/../libs/audience-annotations-0.5.0.jar:/opt/kafka/bin/../libs/commons-cli-1.4.jar:/opt/kafka/bin/../libs/commons-lang3-3.8.1.jar:/opt/kafka/bin/../libs/connect-api-2.8.1.jar:/opt/kafka/bin/../libs/connect-basic-auth-extension-2.8.1.jar:/opt/kafka/bin/../libs/connect-file-2.8.1.jar:/opt/kafka/bin/../libs/connect-json-2.8.1.jar:/opt/kafka/bin/../libs/connect-mirror-2.8.1.jar:/opt/kafka/bin/../libs/connect-mirror-client-2.8.1.jar:/opt/kafka/bin/../libs/connect-runtime-2.8.1.jar:/opt/kafka/bin/../libs/connect-transforms-2.8.1.jar:/opt/kafka/bin/../libs/hk2-api-2.6.1.jar:/opt/kafka/bin/../libs/hk2-locator-2.6.1.jar:/opt/kafka/bin/../libs/hk2-utils-2.6.1.jar:/opt/kafka/bin/../libs/jackson-annotations-2.10.5.jar:/opt/kafka/bin/../libs/jackson-core-2.10.5.jar:/opt/kafka/bin/../libs/jackson-databind-2.10.5.1.jar:/opt/kafka/bin/../libs/jackson-dataformat-csv-2.10.5.jar:/opt/kafka/bin/../libs/jackson-datatype-jdk8-2.10.5.jar:/opt/kafka/bin/../libs/jackson-jaxrs-base-2.10.5.jar:/opt/kafka/bin/../libs/jackson-jaxrs-json-provider-2.10.5.jar:/opt/kafka/bin/../libs/jackson-module-jaxb-annotations-2.10.5.jar:/opt/kafka/bin/../libs/jackson-module-paranamer-2.10.5.jar:/opt/kafka/bin/../libs/jackson-module-scala_2.13-2.10.5.jar:/opt/kafka/bin/../libs/jakarta.activation-api-1.2.1.jar:/opt/kafka/bin/../libs/jakarta.annotation-api-1.3.5.jar:/opt/kafka/bin/../libs/jakarta.inject-2.6.1.jar:/opt/kafka/bin/../libs/jakarta.validation-api-2.0.2.jar:/opt/kafka/bin/../libs/jakarta.ws.rs-api-2.1.6.jar:/opt/kafka/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/opt/kafka/bin/../libs/javassist-3.27.0-GA.jar:/opt/kafka/bin/../libs/javax.servlet-api-3.1.0.jar:/opt/kafka/bin/../libs/javax.ws.rs-api-2.1.1.jar:/opt/kafka/bin/../libs/jaxb-api-2.3.0.jar:/opt/kafka/bin/../libs/jersey-client-2.34.jar:/opt/kafka/bin/../libs/jersey-common-2.34.jar:/opt/kafka/bin/../libs/jersey-container-servlet-2.34.jar:/opt/kafka/bin/../libs/jersey-container-servlet-core-2.34.jar:/opt/kafka/bin/../libs/jersey-hk2-2.34.jar:/opt/kafka/bin/../libs/jersey-server-2.34.jar:/opt/kafka/bin/../libs/jetty-client-9.4.43.v20210629.jar:/opt/kafka/bin/../libs/jetty-continuation-9.4.43.v20210629.jar:/opt/kafka/bin/../libs/jetty-http-9.4.43.v20210629.jar:/opt/kafka/bin/../libs/jetty-io-9.4.43.v20210629.jar:/opt/kafka/bin/../libs/jetty-security-9.4.43.v20210629.jar:/opt/kafka/bin/../libs/jetty-server-9.4.43.v20210629.jar:/opt/kafka/bin/../libs/jetty-servlet-9.4.43.v20210629.jar:/opt/kafka/bin/../libs/jetty-servlets-9.4.43.v20210629.jar:/opt/kafka/bin/../libs/jetty-util-9.4.43.v20210629.jar:/opt/kafka/bin/../libs/jetty-util-ajax-9.4.43.v20210629.jar:/opt/kafka/bin/../libs/jline-3.12.1.jar:/opt/kafka/bin/../libs/jopt-simple-5.0.4.jar:/opt/kafka/bin/../libs/kafka-clients-2.8.1.jar:/opt/kafka/bin/../libs/kafka-log4j-appender-2.8.1.jar:/opt/kafka/bin/../libs/kafka-metadata-2.8.1.jar:/opt/kafka/bin/../libs/kafka-raft-2.8.1.jar:/opt/kafka/bin/../libs/kafka-shell-2.8.1.jar:/opt/kafka/bin/../libs/kafka-streams-2.8.1.jar:/opt/kafka/bin/../libs/kafka-streams-examples-2.8.1.jar:/opt/kafka/bin/../libs/kafka-streams-scala_2.13-2.8.1.jar:/opt/kafka/bin/../libs/kafka-streams-test-utils-2.8.1.jar:/opt/kafka/bin/../libs/kafka-tools-2.8.1.jar:/opt/kafka/bin/../libs/kafka_2.13-2.8.1-sources.jar:/opt/kafka/bin/../libs/kafka_2.13-2.8.1.jar:/opt/kafka/bin/../libs/log4j-1.2.17.jar:/opt/kafka/bin/../libs/lz4-java-1.7.1.jar:/opt/kafka/bin/../libs/maven-artifact-3.8.1.jar:/opt/kafka/bin/../libs/metrics-core-2.2.0.jar:/opt/kafka/bin/../libs/netty-buffer-4.1.62.Final.jar:/opt/kafka/bin/../libs/netty-codec-4.1.62.Final.jar:/opt/kafka/bin/../libs/netty-common-4.1.62.Final.jar:/opt/kafka/bin/../libs/netty-handler-4.1.62.Final.jar:/opt/kafka/bin/../libs/netty-resolver-4.1.62.Final.jar:/opt/kafka/bin/../libs/netty-transport-4.1.62.Final.jar:/opt/kafka/bin/../libs/netty-transport-native-epoll-4.1.62.Final.jar:/opt/kafka/bin/../libs/netty-transport-native-unix-common-4.1.62.Final.jar:/opt/kafka/bin/../libs/osgi-resource-locator-1.0.3.jar:/opt/kafka/bin/../libs/paranamer-2.8.jar:/opt/kafka/bin/../libs/plexus-utils-3.2.1.jar:/opt/kafka/bin/../libs/reflections-0.9.12.jar:/opt/kafka/bin/../libs/rocksdbjni-5.18.4.jar:/opt/kafka/bin/../libs/scala-collection-compat_2.13-2.3.0.jar:/opt/kafka/bin/../libs/scala-java8-compat_2.13-0.9.1.jar:/opt/kafka/bin/../libs/scala-library-2.13.5.jar:/opt/kafka/bin/../libs/scala-logging_2.13-3.9.2.jar:/opt/kafka/bin/../libs/scala-reflect-2.13.5.jar:/opt/kafka/bin/../libs/slf4j-api-1.7.30.jar:/opt/kafka/bin/../libs/slf4j-log4j12-1.7.30.jar:/opt/kafka/bin/../libs/snappy-java-1.1.8.1.jar:/opt/kafka/bin/../libs/zookeeper-3.5.9.jar:/opt/kafka/bin/../libs/zookeeper-jute-3.5.9.jar:/opt/kafka/bin/../libs/zstd-jni-1.4.9-1.jar (org.apache.zookeeper.ZooKeeper)
+kafka-test  | [2025-09-01 11:37:19,856] INFO Client environment:java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
+kafka-test  | [2025-09-01 11:37:19,856] INFO Client environment:java.io.tmpdir=/tmp (org.apache.zookeeper.ZooKeeper)
+kafka-test  | [2025-09-01 11:37:19,856] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+kafka-test  | [2025-09-01 11:37:19,856] INFO Client environment:os.name=Linux (org.apache.zookeeper.ZooKeeper)
+kafka-test  | [2025-09-01 11:37:19,856] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+kafka-test  | [2025-09-01 11:37:19,857] INFO Client environment:os.version=6.6.87.1-microsoft-standard-WSL2 (org.apache.zookeeper.ZooKeeper)
+kafka-test  | [2025-09-01 11:37:19,857] INFO Client environment:user.name=root (org.apache.zookeeper.ZooKeeper)
+kafka-test  | [2025-09-01 11:37:19,857] INFO Client environment:user.home=/root (org.apache.zookeeper.ZooKeeper)
+kafka-test  | [2025-09-01 11:37:19,857] INFO Client environment:user.dir=/ (org.apache.zookeeper.ZooKeeper)
+kafka-test  | [2025-09-01 11:37:19,857] INFO Client environment:os.memory.free=977MB (org.apache.zookeeper.ZooKeeper)
+kafka-test  | [2025-09-01 11:37:19,857] INFO Client environment:os.memory.max=1024MB (org.apache.zookeeper.ZooKeeper)
+kafka-test  | [2025-09-01 11:37:19,857] INFO Client environment:os.memory.total=1024MB (org.apache.zookeeper.ZooKeeper)
+kafka-test  | [2025-09-01 11:37:19,864] INFO Initiating client connection, connectString=zookeeper-test:2181 sessionTimeout=18000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@26adfd2d (org.apache.zookeeper.ZooKeeper)
+kafka-test  | [2025-09-01 11:37:19,881] INFO jute.maxbuffer value is 4194304 Bytes (org.apache.zookeeper.ClientCnxnSocket)
+kafka-test  | [2025-09-01 11:37:19,900] INFO zookeeper.request.timeout value is 0. feature enabled= (org.apache.zookeeper.ClientCnxn)
+kafka-test  | [2025-09-01 11:37:19,910] INFO [ZooKeeperClient Kafka server] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+kafka-test  | [2025-09-01 11:37:19,942] INFO Opening socket connection to server zookeeper-test/172.18.0.4:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+kafka-test  | [2025-09-01 11:37:19,964] INFO Socket connection established, initiating session, client: /172.18.0.5:58420, server: zookeeper-test/172.18.0.4:2181 (org.apache.zookeeper.ClientCnxn)
+kafka-test  | [2025-09-01 11:37:20,043] INFO Session establishment complete on server zookeeper-test/172.18.0.4:2181, sessionid = 0x100016e48910000, negotiated timeout = 18000 (org.apache.zookeeper.ClientCnxn)
+kafka-test  | [2025-09-01 11:37:20,055] INFO [ZooKeeperClient Kafka server] Connected. (kafka.zookeeper.ZooKeeperClient)
+kafka-test  | [2025-09-01 11:37:20,342] INFO [feature-zk-node-event-process-thread]: Starting (kafka.server.FinalizedFeatureChangeListener$ChangeNotificationProcessorThread)
+kafka-test  | [2025-09-01 11:37:20,389] INFO Feature ZK node at path: /feature does not exist (kafka.server.FinalizedFeatureChangeListener)
+kafka-test  | [2025-09-01 11:37:20,390] INFO Cleared cache (kafka.server.FinalizedFeatureCache)
+kafka-test  | [2025-09-01 11:37:20,743] INFO Cluster ID = gnDOqDgQRgKliDn3V22Y4A (kafka.server.KafkaServer)
+kafka-test  | [2025-09-01 11:37:20,751] WARN No meta.properties file under dir /kafka/kafka-logs-test/meta.properties (kafka.server.BrokerMetadataCheckpoint)
+kafka-test  | [2025-09-01 11:37:20,869] INFO KafkaConfig values: 
+kafka-test  | 	advertised.host.name = null
+kafka-test  | 	advertised.listeners = PLAINTEXT://kafka-test:9092
+kafka-test  | 	advertised.port = null
+kafka-test  | 	alter.config.policy.class.name = null
+kafka-test  | 	alter.log.dirs.replication.quota.window.num = 11
+kafka-test  | 	alter.log.dirs.replication.quota.window.size.seconds = 1
+kafka-test  | 	authorizer.class.name = 
+kafka-test  | 	auto.create.topics.enable = true
+kafka-test  | 	auto.leader.rebalance.enable = true
+kafka-test  | 	background.threads = 10
+kafka-test  | 	broker.heartbeat.interval.ms = 2000
+kafka-test  | 	broker.id = 101
+kafka-test  | 	broker.id.generation.enable = true
+kafka-test  | 	broker.rack = null
+kafka-test  | 	broker.session.timeout.ms = 9000
+kafka-test  | 	client.quota.callback.class = null
+kafka-test  | 	compression.type = producer
+kafka-test  | 	connection.failed.authentication.delay.ms = 100
+kafka-test  | 	connections.max.idle.ms = 600000
+kafka-test  | 	connections.max.reauth.ms = 0
+kafka-test  | 	control.plane.listener.name = null
+kafka-test  | 	controlled.shutdown.enable = true
+kafka-test  | 	controlled.shutdown.max.retries = 3
+kafka-test  | 	controlled.shutdown.retry.backoff.ms = 5000
+kafka-test  | 	controller.listener.names = null
+kafka-test  | 	controller.quorum.append.linger.ms = 25
+kafka-test  | 	controller.quorum.election.backoff.max.ms = 1000
+kafka-test  | 	controller.quorum.election.timeout.ms = 1000
+kafka-test  | 	controller.quorum.fetch.timeout.ms = 2000
+kafka-test  | 	controller.quorum.request.timeout.ms = 2000
+kafka-test  | 	controller.quorum.retry.backoff.ms = 20
+kafka-test  | 	controller.quorum.voters = []
+kafka-test  | 	controller.quota.window.num = 11
+kafka-test  | 	controller.quota.window.size.seconds = 1
+kafka-test  | 	controller.socket.timeout.ms = 30000
+kafka-test  | 	create.topic.policy.class.name = null
+kafka-test  | 	default.replication.factor = 1
+kafka-test  | 	delegation.token.expiry.check.interval.ms = 3600000
+kafka-test  | 	delegation.token.expiry.time.ms = 86400000
+kafka-test  | 	delegation.token.master.key = null
+kafka-test  | 	delegation.token.max.lifetime.ms = 604800000
+kafka-test  | 	delegation.token.secret.key = null
+kafka-test  | 	delete.records.purgatory.purge.interval.requests = 1
+kafka-test  | 	delete.topic.enable = true
+kafka-test  | 	fetch.max.bytes = 57671680
+kafka-test  | 	fetch.purgatory.purge.interval.requests = 1000
+kafka-test  | 	group.initial.rebalance.delay.ms = 0
+kafka-test  | 	group.max.session.timeout.ms = 1800000
+kafka-test  | 	group.max.size = 2147483647
+kafka-test  | 	group.min.session.timeout.ms = 6000
+kafka-test  | 	host.name = 
+kafka-test  | 	initial.broker.registration.timeout.ms = 60000
+kafka-test  | 	inter.broker.listener.name = null
+kafka-test  | 	inter.broker.protocol.version = 2.8-IV1
+kafka-test  | 	kafka.metrics.polling.interval.secs = 10
+kafka-test  | 	kafka.metrics.reporters = []
+kafka-test  | 	leader.imbalance.check.interval.seconds = 300
+kafka-test  | 	leader.imbalance.per.broker.percentage = 10
+kafka-test  | 	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+kafka-test  | 	listeners = PLAINTEXT://0.0.0.0:9092
+kafka-test  | 	log.cleaner.backoff.ms = 15000
+kafka-test  | 	log.cleaner.dedupe.buffer.size = 134217728
+kafka-test  | 	log.cleaner.delete.retention.ms = 86400000
+kafka-test  | 	log.cleaner.enable = true
+kafka-test  | 	log.cleaner.io.buffer.load.factor = 0.9
+kafka-test  | 	log.cleaner.io.buffer.size = 524288
+kafka-test  | 	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+kafka-test  | 	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+kafka-test  | 	log.cleaner.min.cleanable.ratio = 0.5
+kafka-test  | 	log.cleaner.min.compaction.lag.ms = 0
+kafka-test  | 	log.cleaner.threads = 1
+kafka-test  | 	log.cleanup.policy = [delete]
+kafka-test  | 	log.dir = /tmp/kafka-logs
+kafka-test  | 	log.dirs = /kafka/kafka-logs-test
+kafka-test  | 	log.flush.interval.messages = 9223372036854775807
+kafka-test  | 	log.flush.interval.ms = null
+kafka-test  | 	log.flush.offset.checkpoint.interval.ms = 60000
+kafka-test  | 	log.flush.scheduler.interval.ms = 9223372036854775807
+kafka-test  | 	log.flush.start.offset.checkpoint.interval.ms = 60000
+kafka-test  | 	log.index.interval.bytes = 4096
+kafka-test  | 	log.index.size.max.bytes = 10485760
+kafka-test  | 	log.message.downconversion.enable = true
+kafka-test  | 	log.message.format.version = 2.8-IV1
+kafka-test  | 	log.message.timestamp.difference.max.ms = 9223372036854775807
+kafka-test  | 	log.message.timestamp.type = CreateTime
+kafka-test  | 	log.preallocate = false
+kafka-test  | 	log.retention.bytes = -1
+kafka-test  | 	log.retention.check.interval.ms = 300000
+kafka-test  | 	log.retention.hours = 168
+kafka-test  | 	log.retention.minutes = null
+kafka-test  | 	log.retention.ms = null
+kafka-test  | 	log.roll.hours = 168
+kafka-test  | 	log.roll.jitter.hours = 0
+kafka-test  | 	log.roll.jitter.ms = null
+kafka-test  | 	log.roll.ms = null
+kafka-test  | 	log.segment.bytes = 1073741824
+kafka-test  | 	log.segment.delete.delay.ms = 60000
+kafka-test  | 	max.connection.creation.rate = 2147483647
+kafka-test  | 	max.connections = 2147483647
+kafka-test  | 	max.connections.per.ip = 2147483647
+kafka-test  | 	max.connections.per.ip.overrides = 
+kafka-test  | 	max.incremental.fetch.session.cache.slots = 1000
+kafka-test  | 	message.max.bytes = 1048588
+kafka-test  | 	metadata.log.dir = null
+kafka-test  | 	metric.reporters = []
+kafka-test  | 	metrics.num.samples = 2
+kafka-test  | 	metrics.recording.level = INFO
+kafka-test  | 	metrics.sample.window.ms = 30000
+kafka-test  | 	min.insync.replicas = 1
+kafka-test  | 	node.id = -1
+kafka-test  | 	num.io.threads = 8
+kafka-test  | 	num.network.threads = 3
+kafka-test  | 	num.partitions = 1
+kafka-test  | 	num.recovery.threads.per.data.dir = 1
+kafka-test  | 	num.replica.alter.log.dirs.threads = null
+kafka-test  | 	num.replica.fetchers = 1
+kafka-test  | 	offset.metadata.max.bytes = 4096
+kafka-test  | 	offsets.commit.required.acks = -1
+kafka-test  | 	offsets.commit.timeout.ms = 5000
+kafka-test  | 	offsets.load.buffer.size = 5242880
+kafka-test  | 	offsets.retention.check.interval.ms = 600000
+kafka-test  | 	offsets.retention.minutes = 10080
+kafka-test  | 	offsets.topic.compression.codec = 0
+kafka-test  | 	offsets.topic.num.partitions = 50
+kafka-test  | 	offsets.topic.replication.factor = 1
+kafka-test  | 	offsets.topic.segment.bytes = 104857600
+kafka-test  | 	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+kafka-test  | 	password.encoder.iterations = 4096
+kafka-test  | 	password.encoder.key.length = 128
+kafka-test  | 	password.encoder.keyfactory.algorithm = null
+kafka-test  | 	password.encoder.old.secret = null
+kafka-test  | 	password.encoder.secret = null
+kafka-test  | 	port = 9092
+kafka-test  | 	principal.builder.class = null
+kafka-test  | 	process.roles = []
+kafka-test  | 	producer.purgatory.purge.interval.requests = 1000
+kafka-test  | 	queued.max.request.bytes = -1
+kafka-test  | 	queued.max.requests = 500
+kafka-test  | 	quota.consumer.default = 9223372036854775807
+kafka-test  | 	quota.producer.default = 9223372036854775807
+kafka-test  | 	quota.window.num = 11
+kafka-test  | 	quota.window.size.seconds = 1
+kafka-test  | 	replica.fetch.backoff.ms = 1000
+kafka-test  | 	replica.fetch.max.bytes = 1048576
+kafka-test  | 	replica.fetch.min.bytes = 1
+kafka-test  | 	replica.fetch.response.max.bytes = 10485760
+kafka-test  | 	replica.fetch.wait.max.ms = 500
+kafka-test  | 	replica.high.watermark.checkpoint.interval.ms = 5000
+kafka-test  | 	replica.lag.time.max.ms = 30000
+kafka-test  | 	replica.selector.class = null
+kafka-test  | 	replica.socket.receive.buffer.bytes = 65536
+kafka-test  | 	replica.socket.timeout.ms = 30000
+kafka-test  | 	replication.quota.window.num = 11
+kafka-test  | 	replication.quota.window.size.seconds = 1
+kafka-test  | 	request.timeout.ms = 30000
+kafka-test  | 	reserved.broker.max.id = 1000
+kafka-test  | 	sasl.client.callback.handler.class = null
+kafka-test  | 	sasl.enabled.mechanisms = [GSSAPI]
+kafka-test  | 	sasl.jaas.config = null
+kafka-test  | 	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+kafka-test  | 	sasl.kerberos.min.time.before.relogin = 60000
+kafka-test  | 	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+kafka-test  | 	sasl.kerberos.service.name = null
+kafka-test  | 	sasl.kerberos.ticket.renew.jitter = 0.05
+kafka-test  | 	sasl.kerberos.ticket.renew.window.factor = 0.8
+kafka-test  | 	sasl.login.callback.handler.class = null
+kafka-test  | 	sasl.login.class = null
+kafka-test  | 	sasl.login.refresh.buffer.seconds = 300
+kafka-test  | 	sasl.login.refresh.min.period.seconds = 60
+kafka-test  | 	sasl.login.refresh.window.factor = 0.8
+kafka-test  | 	sasl.login.refresh.window.jitter = 0.05
+kafka-test  | 	sasl.mechanism.controller.protocol = GSSAPI
+kafka-test  | 	sasl.mechanism.inter.broker.protocol = GSSAPI
+kafka-test  | 	sasl.server.callback.handler.class = null
+kafka-test  | 	security.inter.broker.protocol = PLAINTEXT
+kafka-test  | 	security.providers = null
+kafka-test  | 	socket.connection.setup.timeout.max.ms = 30000
+kafka-test  | 	socket.connection.setup.timeout.ms = 10000
+kafka-test  | 	socket.receive.buffer.bytes = 102400
+kafka-test  | 	socket.request.max.bytes = 104857600
+kafka-test  | 	socket.send.buffer.bytes = 102400
+kafka-test  | 	ssl.cipher.suites = []
+kafka-test  | 	ssl.client.auth = none
+kafka-test  | 	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+kafka-test  | 	ssl.endpoint.identification.algorithm = https
+kafka-test  | 	ssl.engine.factory.class = null
+kafka-test  | 	ssl.key.password = null
+kafka-test  | 	ssl.keymanager.algorithm = SunX509
+kafka-test  | 	ssl.keystore.certificate.chain = null
+kafka-test  | 	ssl.keystore.key = null
+kafka-test  | 	ssl.keystore.location = null
+kafka-test  | 	ssl.keystore.password = null
+kafka-test  | 	ssl.keystore.type = JKS
+kafka-test  | 	ssl.principal.mapping.rules = DEFAULT
+kafka-test  | 	ssl.protocol = TLSv1.3
+kafka-test  | 	ssl.provider = null
+kafka-test  | 	ssl.secure.random.implementation = null
+kafka-test  | 	ssl.trustmanager.algorithm = PKIX
+kafka-test  | 	ssl.truststore.certificates = null
+kafka-test  | 	ssl.truststore.location = null
+kafka-test  | 	ssl.truststore.password = null
+kafka-test  | 	ssl.truststore.type = JKS
+kafka-test  | 	transaction.abort.timed.out.transaction.cleanup.interval.ms = 10000
+kafka-test  | 	transaction.max.timeout.ms = 900000
+kafka-test  | 	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+kafka-test  | 	transaction.state.log.load.buffer.size = 5242880
+kafka-test  | 	transaction.state.log.min.isr = 1
+kafka-test  | 	transaction.state.log.num.partitions = 50
+kafka-test  | 	transaction.state.log.replication.factor = 1
+kafka-test  | 	transaction.state.log.segment.bytes = 104857600
+kafka-test  | 	transactional.id.expiration.ms = 604800000
+kafka-test  | 	unclean.leader.election.enable = false
+kafka-test  | 	zookeeper.clientCnxnSocket = null
+kafka-test  | 	zookeeper.connect = zookeeper-test:2181
+kafka-test  | 	zookeeper.connection.timeout.ms = 18000
+kafka-test  | 	zookeeper.max.in.flight.requests = 10
+kafka-test  | 	zookeeper.session.timeout.ms = 18000
+kafka-test  | 	zookeeper.set.acl = false
+kafka-test  | 	zookeeper.ssl.cipher.suites = null
+kafka-test  | 	zookeeper.ssl.client.enable = false
+kafka-test  | 	zookeeper.ssl.crl.enable = false
+kafka-test  | 	zookeeper.ssl.enabled.protocols = null
+kafka-test  | 	zookeeper.ssl.endpoint.identification.algorithm = HTTPS
+kafka-test  | 	zookeeper.ssl.keystore.location = null
+kafka-test  | 	zookeeper.ssl.keystore.password = null
+kafka-test  | 	zookeeper.ssl.keystore.type = null
+kafka-test  | 	zookeeper.ssl.ocsp.enable = false
+kafka-test  | 	zookeeper.ssl.protocol = TLSv1.2
+kafka-test  | 	zookeeper.ssl.truststore.location = null
+kafka-test  | 	zookeeper.ssl.truststore.password = null
+kafka-test  | 	zookeeper.ssl.truststore.type = null
+kafka-test  | 	zookeeper.sync.time.ms = 2000
+kafka-test  |  (kafka.server.KafkaConfig)
+kafka-test  | [2025-09-01 11:37:20,887] INFO KafkaConfig values: 
+kafka-test  | 	advertised.host.name = null
+kafka-test  | 	advertised.listeners = PLAINTEXT://kafka-test:9092
+kafka-test  | 	advertised.port = null
+kafka-test  | 	alter.config.policy.class.name = null
+kafka-test  | 	alter.log.dirs.replication.quota.window.num = 11
+kafka-test  | 	alter.log.dirs.replication.quota.window.size.seconds = 1
+kafka-test  | 	authorizer.class.name = 
+kafka-test  | 	auto.create.topics.enable = true
+kafka-test  | 	auto.leader.rebalance.enable = true
+kafka-test  | 	background.threads = 10
+kafka-test  | 	broker.heartbeat.interval.ms = 2000
+kafka-test  | 	broker.id = 101
+kafka-test  | 	broker.id.generation.enable = true
+kafka-test  | 	broker.rack = null
+kafka-test  | 	broker.session.timeout.ms = 9000
+kafka-test  | 	client.quota.callback.class = null
+kafka-test  | 	compression.type = producer
+kafka-test  | 	connection.failed.authentication.delay.ms = 100
+kafka-test  | 	connections.max.idle.ms = 600000
+kafka-test  | 	connections.max.reauth.ms = 0
+kafka-test  | 	control.plane.listener.name = null
+kafka-test  | 	controlled.shutdown.enable = true
+kafka-test  | 	controlled.shutdown.max.retries = 3
+kafka-test  | 	controlled.shutdown.retry.backoff.ms = 5000
+kafka-test  | 	controller.listener.names = null
+kafka-test  | 	controller.quorum.append.linger.ms = 25
+kafka-test  | 	controller.quorum.election.backoff.max.ms = 1000
+kafka-test  | 	controller.quorum.election.timeout.ms = 1000
+kafka-test  | 	controller.quorum.fetch.timeout.ms = 2000
+kafka-test  | 	controller.quorum.request.timeout.ms = 2000
+kafka-test  | 	controller.quorum.retry.backoff.ms = 20
+kafka-test  | 	controller.quorum.voters = []
+kafka-test  | 	controller.quota.window.num = 11
+kafka-test  | 	controller.quota.window.size.seconds = 1
+kafka-test  | 	controller.socket.timeout.ms = 30000
+kafka-test  | 	create.topic.policy.class.name = null
+kafka-test  | 	default.replication.factor = 1
+kafka-test  | 	delegation.token.expiry.check.interval.ms = 3600000
+kafka-test  | 	delegation.token.expiry.time.ms = 86400000
+kafka-test  | 	delegation.token.master.key = null
+kafka-test  | 	delegation.token.max.lifetime.ms = 604800000
+kafka-test  | 	delegation.token.secret.key = null
+kafka-test  | 	delete.records.purgatory.purge.interval.requests = 1
+kafka-test  | 	delete.topic.enable = true
+kafka-test  | 	fetch.max.bytes = 57671680
+kafka-test  | 	fetch.purgatory.purge.interval.requests = 1000
+kafka-test  | 	group.initial.rebalance.delay.ms = 0
+kafka-test  | 	group.max.session.timeout.ms = 1800000
+kafka-test  | 	group.max.size = 2147483647
+kafka-test  | 	group.min.session.timeout.ms = 6000
+kafka-test  | 	host.name = 
+kafka-test  | 	initial.broker.registration.timeout.ms = 60000
+kafka-test  | 	inter.broker.listener.name = null
+kafka-test  | 	inter.broker.protocol.version = 2.8-IV1
+kafka-test  | 	kafka.metrics.polling.interval.secs = 10
+kafka-test  | 	kafka.metrics.reporters = []
+kafka-test  | 	leader.imbalance.check.interval.seconds = 300
+kafka-test  | 	leader.imbalance.per.broker.percentage = 10
+kafka-test  | 	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+kafka-test  | 	listeners = PLAINTEXT://0.0.0.0:9092
+kafka-test  | 	log.cleaner.backoff.ms = 15000
+kafka-test  | 	log.cleaner.dedupe.buffer.size = 134217728
+kafka-test  | 	log.cleaner.delete.retention.ms = 86400000
+kafka-test  | 	log.cleaner.enable = true
+kafka-test  | 	log.cleaner.io.buffer.load.factor = 0.9
+kafka-test  | 	log.cleaner.io.buffer.size = 524288
+kafka-test  | 	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+kafka-test  | 	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+kafka-test  | 	log.cleaner.min.cleanable.ratio = 0.5
+kafka-test  | 	log.cleaner.min.compaction.lag.ms = 0
+kafka-test  | 	log.cleaner.threads = 1
+kafka-test  | 	log.cleanup.policy = [delete]
+kafka-test  | 	log.dir = /tmp/kafka-logs
+kafka-test  | 	log.dirs = /kafka/kafka-logs-test
+kafka-test  | 	log.flush.interval.messages = 9223372036854775807
+kafka-test  | 	log.flush.interval.ms = null
+kafka-test  | 	log.flush.offset.checkpoint.interval.ms = 60000
+kafka-test  | 	log.flush.scheduler.interval.ms = 9223372036854775807
+kafka-test  | 	log.flush.start.offset.checkpoint.interval.ms = 60000
+kafka-test  | 	log.index.interval.bytes = 4096
+kafka-test  | 	log.index.size.max.bytes = 10485760
+kafka-test  | 	log.message.downconversion.enable = true
+kafka-test  | 	log.message.format.version = 2.8-IV1
+kafka-test  | 	log.message.timestamp.difference.max.ms = 9223372036854775807
+kafka-test  | 	log.message.timestamp.type = CreateTime
+kafka-test  | 	log.preallocate = false
+kafka-test  | 	log.retention.bytes = -1
+kafka-test  | 	log.retention.check.interval.ms = 300000
+kafka-test  | 	log.retention.hours = 168
+kafka-test  | 	log.retention.minutes = null
+kafka-test  | 	log.retention.ms = null
+kafka-test  | 	log.roll.hours = 168
+kafka-test  | 	log.roll.jitter.hours = 0
+kafka-test  | 	log.roll.jitter.ms = null
+kafka-test  | 	log.roll.ms = null
+kafka-test  | 	log.segment.bytes = 1073741824
+kafka-test  | 	log.segment.delete.delay.ms = 60000
+kafka-test  | 	max.connection.creation.rate = 2147483647
+kafka-test  | 	max.connections = 2147483647
+kafka-test  | 	max.connections.per.ip = 2147483647
+kafka-test  | 	max.connections.per.ip.overrides = 
+kafka-test  | 	max.incremental.fetch.session.cache.slots = 1000
+kafka-test  | 	message.max.bytes = 1048588
+kafka-test  | 	metadata.log.dir = null
+kafka-test  | 	metric.reporters = []
+kafka-test  | 	metrics.num.samples = 2
+kafka-test  | 	metrics.recording.level = INFO
+kafka-test  | 	metrics.sample.window.ms = 30000
+kafka-test  | 	min.insync.replicas = 1
+kafka-test  | 	node.id = -1
+kafka-test  | 	num.io.threads = 8
+kafka-test  | 	num.network.threads = 3
+kafka-test  | 	num.partitions = 1
+kafka-test  | 	num.recovery.threads.per.data.dir = 1
+kafka-test  | 	num.replica.alter.log.dirs.threads = null
+kafka-test  | 	num.replica.fetchers = 1
+kafka-test  | 	offset.metadata.max.bytes = 4096
+kafka-test  | 	offsets.commit.required.acks = -1
+kafka-test  | 	offsets.commit.timeout.ms = 5000
+kafka-test  | 	offsets.load.buffer.size = 5242880
+kafka-test  | 	offsets.retention.check.interval.ms = 600000
+kafka-test  | 	offsets.retention.minutes = 10080
+kafka-test  | 	offsets.topic.compression.codec = 0
+kafka-test  | 	offsets.topic.num.partitions = 50
+kafka-test  | 	offsets.topic.replication.factor = 1
+kafka-test  | 	offsets.topic.segment.bytes = 104857600
+kafka-test  | 	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+kafka-test  | 	password.encoder.iterations = 4096
+kafka-test  | 	password.encoder.key.length = 128
+kafka-test  | 	password.encoder.keyfactory.algorithm = null
+kafka-test  | 	password.encoder.old.secret = null
+kafka-test  | 	password.encoder.secret = null
+kafka-test  | 	port = 9092
+kafka-test  | 	principal.builder.class = null
+kafka-test  | 	process.roles = []
+kafka-test  | 	producer.purgatory.purge.interval.requests = 1000
+kafka-test  | 	queued.max.request.bytes = -1
+kafka-test  | 	queued.max.requests = 500
+kafka-test  | 	quota.consumer.default = 9223372036854775807
+kafka-test  | 	quota.producer.default = 9223372036854775807
+kafka-test  | 	quota.window.num = 11
+kafka-test  | 	quota.window.size.seconds = 1
+kafka-test  | 	replica.fetch.backoff.ms = 1000
+kafka-test  | 	replica.fetch.max.bytes = 1048576
+kafka-test  | 	replica.fetch.min.bytes = 1
+kafka-test  | 	replica.fetch.response.max.bytes = 10485760
+kafka-test  | 	replica.fetch.wait.max.ms = 500
+kafka-test  | 	replica.high.watermark.checkpoint.interval.ms = 5000
+kafka-test  | 	replica.lag.time.max.ms = 30000
+kafka-test  | 	replica.selector.class = null
+kafka-test  | 	replica.socket.receive.buffer.bytes = 65536
+kafka-test  | 	replica.socket.timeout.ms = 30000
+kafka-test  | 	replication.quota.window.num = 11
+kafka-test  | 	replication.quota.window.size.seconds = 1
+kafka-test  | 	request.timeout.ms = 30000
+kafka-test  | 	reserved.broker.max.id = 1000
+kafka-test  | 	sasl.client.callback.handler.class = null
+kafka-test  | 	sasl.enabled.mechanisms = [GSSAPI]
+kafka-test  | 	sasl.jaas.config = null
+kafka-test  | 	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+kafka-test  | 	sasl.kerberos.min.time.before.relogin = 60000
+kafka-test  | 	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+kafka-test  | 	sasl.kerberos.service.name = null
+kafka-test  | 	sasl.kerberos.ticket.renew.jitter = 0.05
+kafka-test  | 	sasl.kerberos.ticket.renew.window.factor = 0.8
+kafka-test  | 	sasl.login.callback.handler.class = null
+kafka-test  | 	sasl.login.class = null
+kafka-test  | 	sasl.login.refresh.buffer.seconds = 300
+kafka-test  | 	sasl.login.refresh.min.period.seconds = 60
+kafka-test  | 	sasl.login.refresh.window.factor = 0.8
+kafka-test  | 	sasl.login.refresh.window.jitter = 0.05
+kafka-test  | 	sasl.mechanism.controller.protocol = GSSAPI
+kafka-test  | 	sasl.mechanism.inter.broker.protocol = GSSAPI
+kafka-test  | 	sasl.server.callback.handler.class = null
+kafka-test  | 	security.inter.broker.protocol = PLAINTEXT
+kafka-test  | 	security.providers = null
+kafka-test  | 	socket.connection.setup.timeout.max.ms = 30000
+kafka-test  | 	socket.connection.setup.timeout.ms = 10000
+kafka-test  | 	socket.receive.buffer.bytes = 102400
+kafka-test  | 	socket.request.max.bytes = 104857600
+kafka-test  | 	socket.send.buffer.bytes = 102400
+kafka-test  | 	ssl.cipher.suites = []
+kafka-test  | 	ssl.client.auth = none
+kafka-test  | 	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+kafka-test  | 	ssl.endpoint.identification.algorithm = https
+kafka-test  | 	ssl.engine.factory.class = null
+kafka-test  | 	ssl.key.password = null
+kafka-test  | 	ssl.keymanager.algorithm = SunX509
+kafka-test  | 	ssl.keystore.certificate.chain = null
+kafka-test  | 	ssl.keystore.key = null
+kafka-test  | 	ssl.keystore.location = null
+kafka-test  | 	ssl.keystore.password = null
+kafka-test  | 	ssl.keystore.type = JKS
+kafka-test  | 	ssl.principal.mapping.rules = DEFAULT
+kafka-test  | 	ssl.protocol = TLSv1.3
+kafka-test  | 	ssl.provider = null
+kafka-test  | 	ssl.secure.random.implementation = null
+kafka-test  | 	ssl.trustmanager.algorithm = PKIX
+kafka-test  | 	ssl.truststore.certificates = null
+kafka-test  | 	ssl.truststore.location = null
+kafka-test  | 	ssl.truststore.password = null
+kafka-test  | 	ssl.truststore.type = JKS
+kafka-test  | 	transaction.abort.timed.out.transaction.cleanup.interval.ms = 10000
+kafka-test  | 	transaction.max.timeout.ms = 900000
+kafka-test  | 	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+kafka-test  | 	transaction.state.log.load.buffer.size = 5242880
+kafka-test  | 	transaction.state.log.min.isr = 1
+kafka-test  | 	transaction.state.log.num.partitions = 50
+kafka-test  | 	transaction.state.log.replication.factor = 1
+kafka-test  | 	transaction.state.log.segment.bytes = 104857600
+kafka-test  | 	transactional.id.expiration.ms = 604800000
+kafka-test  | 	unclean.leader.election.enable = false
+kafka-test  | 	zookeeper.clientCnxnSocket = null
+kafka-test  | 	zookeeper.connect = zookeeper-test:2181
+kafka-test  | 	zookeeper.connection.timeout.ms = 18000
+kafka-test  | 	zookeeper.max.in.flight.requests = 10
+kafka-test  | 	zookeeper.session.timeout.ms = 18000
+kafka-test  | 	zookeeper.set.acl = false
+kafka-test  | 	zookeeper.ssl.cipher.suites = null
+kafka-test  | 	zookeeper.ssl.client.enable = false
+kafka-test  | 	zookeeper.ssl.crl.enable = false
+kafka-test  | 	zookeeper.ssl.enabled.protocols = null
+kafka-test  | 	zookeeper.ssl.endpoint.identification.algorithm = HTTPS
+kafka-test  | 	zookeeper.ssl.keystore.location = null
+kafka-test  | 	zookeeper.ssl.keystore.password = null
+kafka-test  | 	zookeeper.ssl.keystore.type = null
+kafka-test  | 	zookeeper.ssl.ocsp.enable = false
+kafka-test  | 	zookeeper.ssl.protocol = TLSv1.2
+kafka-test  | 	zookeeper.ssl.truststore.location = null
+kafka-test  | 	zookeeper.ssl.truststore.password = null
+kafka-test  | 	zookeeper.ssl.truststore.type = null
+kafka-test  | 	zookeeper.sync.time.ms = 2000
+kafka-test  |  (kafka.server.KafkaConfig)
+kafka-test  | [2025-09-01 11:37:20,972] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+kafka-test  | [2025-09-01 11:37:20,977] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+kafka-test  | [2025-09-01 11:37:20,984] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+kafka-test  | [2025-09-01 11:37:20,990] INFO [ThrottledChannelReaper-ControllerMutation]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+kafka-test  | [2025-09-01 11:37:21,155] INFO Loading logs from log dirs ArraySeq(/kafka/kafka-logs-test) (kafka.log.LogManager)
+kafka-test  | [2025-09-01 11:37:21,165] INFO Attempting recovery for all logs in /kafka/kafka-logs-test since no clean shutdown file was found (kafka.log.LogManager)
+kafka-test  | [2025-09-01 11:37:21,192] INFO Loaded 0 logs in 36ms. (kafka.log.LogManager)
+kafka-test  | [2025-09-01 11:37:21,194] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+kafka-test  | [2025-09-01 11:37:21,210] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+kafka-test  | [2025-09-01 11:37:22,177] INFO Updated connection-accept-rate max connection creation rate to 2147483647 (kafka.network.ConnectionQuotas)
+kafka-test  | [2025-09-01 11:37:22,187] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.Acceptor)
+kafka-test  | [2025-09-01 11:37:22,272] INFO [SocketServer listenerType=ZK_BROKER, nodeId=101] Created data-plane acceptor and processors for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+kafka-test  | [2025-09-01 11:37:22,328] INFO [broker-101-to-controller-send-thread]: Starting (kafka.server.BrokerToControllerRequestThread)
+kafka-test  | [2025-09-01 11:37:22,364] INFO [ExpirationReaper-101-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+kafka-test  | [2025-09-01 11:37:22,367] INFO [ExpirationReaper-101-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+kafka-test  | [2025-09-01 11:37:22,371] INFO [ExpirationReaper-101-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+kafka-test  | [2025-09-01 11:37:22,374] INFO [ExpirationReaper-101-ElectLeader]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+kafka-test  | [2025-09-01 11:37:22,398] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+kafka-test  | [2025-09-01 11:37:22,458] INFO Creating /brokers/ids/101 (is it secure? false) (kafka.zk.KafkaZkClient)
+kafka-test  | [2025-09-01 11:37:22,500] INFO Stat of the created znode at /brokers/ids/101 is: 25,25,1756726642484,1756726642484,1,0,0,72059167213420544,204,0,25
+kafka-test  |  (kafka.zk.KafkaZkClient)
+kafka-test  | [2025-09-01 11:37:22,502] INFO Registered broker 101 at path /brokers/ids/101 with addresses: PLAINTEXT://kafka-test:9092, czxid (broker epoch): 25 (kafka.zk.KafkaZkClient)
+kafka-test  | [2025-09-01 11:37:22,605] INFO [ExpirationReaper-101-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+kafka-test  | [2025-09-01 11:37:22,614] INFO [ExpirationReaper-101-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+kafka-test  | [2025-09-01 11:37:22,618] INFO [ExpirationReaper-101-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+kafka-test  | [2025-09-01 11:37:22,627] INFO Successfully created /controller_epoch with initial epoch 0 (kafka.zk.KafkaZkClient)
+kafka-test  | [2025-09-01 11:37:22,649] INFO [GroupCoordinator 101]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+kafka-test  | [2025-09-01 11:37:22,659] INFO Feature ZK node created at path: /feature (kafka.server.FinalizedFeatureChangeListener)
+kafka-test  | [2025-09-01 11:37:22,660] INFO [GroupCoordinator 101]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+kafka-test  | [2025-09-01 11:37:22,712] INFO Updated cache from existing <empty> to latest FinalizedFeaturesAndEpoch(features=Features{}, epoch=0). (kafka.server.FinalizedFeatureCache)
+kafka-test  | [2025-09-01 11:37:22,719] INFO [ProducerId Manager 101]: Acquired new producerId block (brokerId:101,blockStartProducerId:0,blockEndProducerId:999) by writing to Zk with path version 1 (kafka.coordinator.transaction.ProducerIdManager)
+kafka-test  | [2025-09-01 11:37:22,721] INFO [TransactionCoordinator id=101] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+kafka-test  | [2025-09-01 11:37:22,735] INFO [Transaction Marker Channel Manager 101]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+kafka-test  | [2025-09-01 11:37:22,735] INFO [TransactionCoordinator id=101] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+kafka-test  | [2025-09-01 11:37:22,787] INFO [ExpirationReaper-101-AlterAcls]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+kafka-test  | [2025-09-01 11:37:22,844] INFO [/config/changes-event-process-thread]: Starting (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+kafka-test  | [2025-09-01 11:37:22,871] INFO [SocketServer listenerType=ZK_BROKER, nodeId=101] Starting socket server acceptors and processors (kafka.network.SocketServer)
+kafka-test  | [2025-09-01 11:37:22,888] INFO [SocketServer listenerType=ZK_BROKER, nodeId=101] Started data-plane acceptor and processor(s) for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+kafka-test  | [2025-09-01 11:37:22,889] INFO [SocketServer listenerType=ZK_BROKER, nodeId=101] Started socket server acceptors and processors (kafka.network.SocketServer)
+kafka-test  | [2025-09-01 11:37:22,904] INFO Kafka version: 2.8.1 (org.apache.kafka.common.utils.AppInfoParser)
+kafka-test  | [2025-09-01 11:37:22,905] INFO Kafka commitId: 839b886f9b732b15 (org.apache.kafka.common.utils.AppInfoParser)
+kafka-test  | [2025-09-01 11:37:22,905] INFO Kafka startTimeMs: 1756726642890 (org.apache.kafka.common.utils.AppInfoParser)
+kafka-test  | [2025-09-01 11:37:22,911] INFO [KafkaServer id=101] started (kafka.server.KafkaServer)
+kafka-test  | [2025-09-01 11:37:23,065] INFO [broker-101-to-controller-send-thread]: Recorded new controller, from now on will use broker kafka-test:9092 (id: 101 rack: null) (kafka.server.BrokerToControllerRequestThread)

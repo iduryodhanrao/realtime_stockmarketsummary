@@ -1,5 +1,5 @@
 FROM python:3.10
-RUN pip install kafka-python
-COPY consumer.py /app/consumer.py
 WORKDIR /app
+COPY consumer.py .
+RUN pip install kafka-python
 CMD ["python", "consumer.py"]
